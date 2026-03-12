@@ -156,5 +156,4 @@ STATICFILES_DIRS = [
     BASE_DIR / "catalog" / "static",
 ]
 # WhiteNoise (recommended with DEBUG=False)
-STATICFILES_STORAGE =
-"whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
